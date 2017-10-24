@@ -59,7 +59,7 @@ Red tip #23: Stash payloads in C:\$Recycle.Bin
 
 Red tip #24: Compromise the SOC and Security teams to watch their progress and track their email alerts for sophisticated threats
 
-Red tip #25: Probably dont do this on a red team, but spray for Welcome1, Password1 if youre struggling to move. But move off fast.
+Red tip #25: Probably dont do this on a red team, but spray for Welcome1, Password1 if you're struggling to move. But move off fast.
 
 Red tip #26: Split your campaigns up so that they are independent. Fire tons at once for decoys and to burn out the defence.
 
@@ -225,7 +225,7 @@ Red tip #106: Wordlists? https://github.com/berzerk0/Probable-WordlistsI like to
 
 Red tip #107: More of a pentest tip but nslookup http://google.com  if it resolves you may have a DNS tunnelling problem.
 
-Red tip #108: Post exploitation Asset Discovery https://github.com/vysec/Invoke-DNSDiscovery looks for assets by name that might be good if youre low priv user.
+Red tip #108: Post exploitation Asset Discovery https://github.com/vysec/Invoke-DNSDiscovery looks for assets by name that might be good if you're low priv user.
 
 Red tip #109: Use Invoke-ProcessScan to give some running processes context on a system. This uses EQGRP leaked list- https://github.com/vysec/Invoke-ProcessScan
 
@@ -273,7 +273,7 @@ Red tip #130: (Not red really but useful) Sort IPs: cat IPs.txt | sort -t . -k1,
 
 Red tip #131: Learn AWK and general bash scripting. Processing and merging of data sets speeds up our job for discovery and time keeping.
 
-Red tip #132: Worth learning to pick locks and the dust can sensor trick if youre going to do some physical. http://www.artofmanliness.com/2014/11/19/how-to-pick-a-lock-pin-tumbler-locks/
+Red tip #132: Worth learning to pick locks and the dust can sensor trick if you're going to do some physical. http://www.artofmanliness.com/2014/11/19/how-to-pick-a-lock-pin-tumbler-locks/
 
 Red tip #133: Grep has an extract flag -o that can be used to extract from a regex. Good for extracting data from massive blobs.
 
@@ -303,7 +303,7 @@ Red tip #146: IDS flagging known payload binary blob? Base64 encode it in your p
 
 Red tip #147: Test your phishing campaigns before sending!!!
 
-Red tip #148: If youre sending into Exchange, make sure your SMTP server is not in SPAM list or black lists. Check junk mails mail headers
+Red tip #148: If you're sending into Exchange, make sure your SMTP server is not in SPAM list or black lists. Check junk mails mail headers
 
 Red tip #149: Use Microsofts Message Header Analyzer to parse and review email headers from Outlook. https://testconnectivity.microsoft.com/MHA/Pages/mha.aspx
 
@@ -317,9 +317,9 @@ Red tip #153: RDP in use? Dont want to use VNC? Try mimikatzs ts::multirdp in me
 
 Red tip #154: Admin on a machine with VPN client? certificate extraction using Mimikatz by @gentilkiwi. Dont forget to dl configs. Backdoor
 
-Red tip #155: Master all the quick wins to Domain privilege escalation. When youre pressured to get DA in 15 mins, you want to know you can
+Red tip #155: Master all the quick wins to Domain privilege escalation. When you're pressured to get DA in 15 mins, you want to know you can
 
-Red tip #156: @Akijos notes that we should be careful when using silver tickets with scheduled tasks. Author is the user account youre on.
+Red tip #156: @Akijos notes that we should be careful when using silver tickets with scheduled tasks. Author is the user account you're on.
 
 Red tip #157: If you dont need a golden ticket, dont generate it.
 
@@ -345,7 +345,7 @@ Red tip #167: Follow @mattifestation to keep up to date with blue team advances.
 
 Red tip #168: Using VBS or JS? Cant stage using PowerShell.exe as blocked? @Cneelis released https://github.com/Cn33liz/StarFighters so you can keep use PS
 
-Red tip #169: Not sure who uses Wi-Fi webcams but go run a mass deauth attack if youre going to plan on breaking in physically to discon
+Red tip #169: Not sure who uses Wi-Fi webcams but go run a mass deauth attack if you're going to plan on breaking in physically to discon
 
 Red tip #170: @malcomvetter Never use defaults - run Mimikatz with AES and 8 hour tickets to avoid passive detection from NG defense tools!
 
